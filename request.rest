@@ -1,0 +1,81 @@
+POST http://localhost:5000/api/v1/message
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG1haWwuY29tIiwicGFzc3dvcmQiOiJwYXN3d29yZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDIxNDM1NiwiZXhwIjoxNjIwMjE3MzU2fQ.0_xnUvIC6t3e-bQ_0U6_2s028JFODElDqBeBN3g5qoA
+
+{
+    "From": "+2348022656777",
+    "Body": "Report > John Doe"
+}
+
+###
+POST http://localhost:5000/api/v1/register
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG1haWwuY29tIiwicGFzc3dvcmQiOiJwYXN3d29yZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDIxNDM1NiwiZXhwIjoxNjIwMjE3MzU2fQ.0_xnUvIC6t3e-bQ_0U6_2s028JFODElDqBeBN3g5qoA
+
+{
+    "phone": "+2348833989",
+    "username": "John Doe",
+    "email": "vebvo@vebbo.me",
+    "country": "No Where"
+}
+
+###
+POST http://localhost:5000/api/v1/check
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG1haWwuY29tIiwicGFzc3dvcmQiOiJwYXN3d29yZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDIxNDM1NiwiZXhwIjoxNjIwMjE3MzU2fQ.0_xnUvIC6t3e-bQ_0U6_2s028JFODElDqBeBN3g5qoA
+
+{
+    "phone": "+2348833988"
+}
+
+###
+PATCH http://localhost:5000/api/v1/paid
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG1haWwuY29tIiwicGFzc3dvcmQiOiJwYXN3d29yZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDIxNDM1NiwiZXhwIjoxNjIwMjE3MzU2fQ.0_xnUvIC6t3e-bQ_0U6_2s028JFODElDqBeBN3g5qoA
+
+{
+    "phone": "+2348833987"
+}
+
+###
+DELETE http://localhost:5000/api/v1/delete
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG1haWwuY29tIiwicGFzc3dvcmQiOiJwYXN3d29yZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDIxNDM1NiwiZXhwIjoxNjIwMjE3MzU2fQ.0_xnUvIC6t3e-bQ_0U6_2s028JFODElDqBeBN3g5qoA
+
+{
+    "phone": "+2348833988"
+}
+
+###
+GET http://localhost:5000/api/v1/users
+
+###
+GET http://localhost:5000/api/v1/notice
+
+###
+POST http://localhost:5000/api/v1/maintenance
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG1haWwuY29tIiwicGFzc3dvcmQiOiJwYXN3d29yZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDIxNDM1NiwiZXhwIjoxNjIwMjE3MzU2fQ.0_xnUvIC6t3e-bQ_0U6_2s028JFODElDqBeBN3g5qoA
+
+{
+    "password": "password"
+}
+
+###
+POST http://localhost:5000/api/v1/validate
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG1haWwuY29tIiwicGFzc3dvcmQiOiJwYXN3d29yZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDIxNDM1NiwiZXhwIjoxNjIwMjE3MzU2fQ.0_xnUvIC6t3e-bQ_0U6_2s028JFODElDqBeBN3g5qoA
+
+{
+    "password": "password"
+}
+
+
+###
+PUT http://localhost:5000/api/v1/admin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG1haWwuY29tIiwicGFzc3dvcmQiOiJwYXN3d29yZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDIxNDM1NiwiZXhwIjoxNjIwMjE3MzU2fQ.0_xnUvIC6t3e-bQ_0U6_2s028JFODElDqBeBN3g5qoA
+
+{
+    "password": "password"
+}
+
+###
+POST http://localhost:5000/api/v1/admin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG1haWwuY29tIiwicGFzc3dvcmQiOiJwYXN3d29yZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYyMDIxNDM1NiwiZXhwIjoxNjIwMjE3MzU2fQ.0_xnUvIC6t3e-bQ_0U6_2s028JFODElDqBeBN3g5qoA
+
+{
+    "password": "password"
+}

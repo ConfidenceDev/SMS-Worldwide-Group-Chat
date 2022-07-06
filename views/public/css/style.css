@@ -1,0 +1,137 @@
+* {
+  font-family: Ubuntu, sans-serif;
+}
+
+body {
+  background-color: beige;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+
+p {
+  font-size: 3.2rem;
+  font-weight: 500;
+  align-self: center;
+}
+
+h2 {
+  color: rgb(33, 23, 90);
+  font-size: 3rem;
+}
+
+#usersCount {
+  margin: 40px 0;
+  text-align: center;
+}
+
+li {
+  font-size: 2.5rem;
+}
+
+button {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: rgb(111, 112, 133);
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+  transition: transform 0.2s ease-in;
+}
+
+input {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  width: 440px;
+  align-self: center;
+}
+
+.dev p {
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+.remove,
+.validation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 70%;
+  margin-top: 50px;
+}
+
+.remove button,
+.validation button {
+  margin-top: 8px;
+  width: 460px;
+  align-self: center;
+}
+
+.remove,
+.btns {
+  display: none;
+}
+
+@media (max-width: 1097px) {
+  p {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  li {
+    font-size: 1.7rem;
+  }
+
+  .dev p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 527px) {
+  .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btns button {
+    width: 100%;
+  }
+
+  .btns #upload {
+    margin-top: 8px;
+  }
+
+  input {
+    width: 230px;
+  }
+
+  .remove button,
+  .validation button {
+    width: 250px;
+  }
+}

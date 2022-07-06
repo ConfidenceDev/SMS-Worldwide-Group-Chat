@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vebbo Forum API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>Vebbo Forum API</p>
+      <div class="btns">
+        <button id="download">Download User List</button>
+        <button id="upload">Upload User List</button>
+      </div>
+      <div class="remove">
+        <input
+          type="text"
+          id="phone_field"
+          class="inputs"
+          placeholder="Phone E.g: +233123456"
+        />
+        <button id="removeBtn">Remove</button>
+        <button id="maintenanceBtn">Maintenance</button>
+      </div>
+      <div class="validation">
+        <input
+          type="password"
+          id="pass_field"
+          class="inputs"
+          placeholder="Password"
+          autocomplete="off"
+        />
+        <button id="passBtn">Continue</button>
+      </div>
+      <div class="dev">
+        <h2 id="usersCount"></h2>
+        <h2>Developer</h2>
+        <ul>
+          <li>Confidence Eze</li>
+        </ul>
+
+        <p>
+          Github:
+          <a href="https://github.com/Dev-Geek" target="_blank"
+            >https://github.com/Dev-Geek</a
+          >
+        </p>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
